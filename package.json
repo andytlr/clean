@@ -1,7 +1,7 @@
 {
   "name": "Clean",
   "main": "./lib/clean",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Distraction free writing.",
   "activationEvents": [
     "clean:toggle"
