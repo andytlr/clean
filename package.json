@@ -1,0 +1,22 @@
+{
+  "name": "Clean",
+  "main": "./lib/clean",
+  "version": "0.7.0",
+  "description": "Distraction free writing.",
+  "activationEvents": [
+    "clean:toggle"
+  ],
+  "homepage": "https://github.com/andytlr/clean",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andytlr/clean.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andytlr/clean/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {}
+}
