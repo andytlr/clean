@@ -4,9 +4,14 @@
   }
 
   .gutter,
+  .line-numbers,
   .status-bar,
   .tab-bar,
-  .panel-left {
+  .left,
+  .right{
     display: none;
+  }
+  atom-text-editor::shadow .gutter{
+    display:none;
   }
 }
