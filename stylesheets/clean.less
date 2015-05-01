@@ -1,6 +1,9 @@
 @import "ui-variables";
 
 .clean {
+  .left,.top,.right,.tab-bar{
+    transition: left 750ms, right 750ms, top 500ms, transform 150ms, opacity 200ms;
+  }
 
   atom-pane,atom-panel, atom-pane > div,atom-panel > div{
     padding:0px !important;
@@ -54,6 +57,7 @@
     li{
       z-index: 20;
       display: none;
+      opacity:0;
       &.active{
         border-bottom:solid 4px @base-background-color;
       }
@@ -69,6 +73,7 @@
       transform:none;
       li{
         display:inline-block;
+        opacity:1;
       }
 
     }
