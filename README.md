@@ -1,5 +1,4 @@
-# Clean
+# Clean2
 
-This is 100% a fork and simplification of [Zen](https://github.com/defunkt/zen).
 
-I wanted to do a a couple things quite differently so I figured it was better to  be separate.
+This is modified fork from Clean repo and [Clean](https://github.com/andytlr/clean) is fork of [Zen](https://github.com/defunkt/zen) package :)
